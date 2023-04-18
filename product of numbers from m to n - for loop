@@ -1,0 +1,6 @@
+M = int(input())
+N = int(input())
+num = 1
+for i in range (M,N+1):
+    num = num*i 
+print(num)
