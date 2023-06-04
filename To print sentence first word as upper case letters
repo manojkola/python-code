@@ -1,0 +1,11 @@
+N = input()
+store = ""
+for Lett in (N):
+    if Lett != " ":
+        store = store+str(Lett)
+    else:
+        break 
+k = store.upper()
+m = len(store)
+print(k+N[m:])
+        
