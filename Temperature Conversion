@@ -1,0 +1,32 @@
+N = input()
+if N[-1] =="C":
+    C = N[:-1:]
+    Float = float(C)
+    print(str(Float)+"C")
+    f =round((Float/(5/9)+32),2)
+    print(str(f)+"F")
+    k =round((Float+273),2)
+    print(str(k)+"K")
+elif N[-1]=="F":
+    F = N[:-1:]
+    Float = float(F)
+    C =round((Float-32)*5/9,2)
+    print(str(C)+"C")
+    print(N)
+    K =round(C+273,2)
+    print(str(K)+"K")
+else:
+    k = N[:-1]
+    Float = float(k)
+    C =round(Float-273,2)
+    print(str(C)+"C")
+    F =round(C/(5/9)+32,2)
+    print(str(F)+"F")
+    print(str(Float)+"K")
+    
+    
+    
+
+    
+    
+    
